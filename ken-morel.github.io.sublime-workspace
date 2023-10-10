@@ -1,0 +1,1499 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"st",
+				"styles"
+			],
+			[
+				"for",
+				"formatter"
+			],
+			[
+				"pri",
+				"print_in_color"
+			],
+			[
+				"S",
+				"SimpleHTTPRequestHandler"
+			],
+			[
+				"na",
+				"names"
+			],
+			[
+				"Ed",
+				"Editors"
+			],
+			[
+				"C",
+				"ColorPicker"
+			],
+			[
+				"Co",
+				"ColorPicker"
+			],
+			[
+				"SE",
+				"SETTINGS"
+			],
+			[
+				"bo",
+				"border_color"
+			],
+			[
+				"ke",
+				"key_events"
+			],
+			[
+				"p",
+				"pixel"
+			],
+			[
+				"ran",
+				"randrange"
+			],
+			[
+				"pi",
+				"pixel"
+			],
+			[
+				"draw",
+				"draw_to_cli"
+			],
+			[
+				"dr",
+				"draw_borders"
+			],
+			[
+				"pa",
+				"pad1"
+			],
+			[
+				"k",
+				"kbhit"
+			],
+			[
+				"rg",
+				"rgb_to_name"
+			],
+			[
+				"pix",
+				"pix_map"
+			],
+			[
+				"de",
+				"def\tFunction"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"b",
+				"border_width"
+			],
+			[
+				"ra",
+				"range"
+			],
+			[
+				"n",
+				"numpy"
+			],
+			[
+				"co",
+				"copy"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"s",
+				"screen"
+			],
+			[
+				"t",
+				"tennis"
+			],
+			[
+				"a",
+				"argv"
+			],
+			[
+				"B",
+				"BALL_HEIGHT"
+			],
+			[
+				"pad",
+				"pad1"
+			],
+			[
+				"col",
+				"colorama"
+			],
+			[
+				"_",
+				"_pixels"
+			],
+			[
+				"P",
+				"PAD_WIDTH"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"bor",
+				"border_color"
+			],
+			[
+				"ch",
+				"chrpos"
+			],
+			[
+				"py",
+				"pyautogui"
+			],
+			[
+				"chr",
+				"chrpos"
+			],
+			[
+				"get",
+				"get_hover_chr"
+			],
+			[
+				"o",
+				"offset_y"
+			],
+			[
+				"u",
+				"update_mouse"
+			],
+			[
+				"cl",
+				"click_display"
+			],
+			[
+				"re",
+				"rect"
+			],
+			[
+				"set",
+				"setVelocityX"
+			],
+			[
+				"as",
+				"asyncio"
+			],
+			[
+				"glo",
+				"global"
+			],
+			[
+				"sh",
+				"shapes"
+			],
+			[
+				"g",
+				"gameOver"
+			],
+			[
+				"fr",
+				"frm_screen"
+			],
+			[
+				"W",
+				"WIDTH"
+			],
+			[
+				"A",
+				"ASH"
+			],
+			[
+				"MA",
+				"MAIN"
+			],
+			[
+				"Me",
+				"Mesh"
+			],
+			[
+				"bat",
+				"battery_frm"
+			],
+			[
+				"ba",
+				"battery_plugged"
+			],
+			[
+				"su",
+				"sublime"
+			],
+			[
+				"ctr",
+				"m_ctrl_shift_s"
+			],
+			[
+				"m",
+				"m_ctrl_s"
+			],
+			[
+				"im",
+				"image_formats"
+			],
+			[
+				"pr",
+				"projects"
+			],
+			[
+				"R",
+				"Rectangle"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"ST",
+				"STYLES"
+			],
+			[
+				"opt_fill",
+				"opt_fill_col_lbl"
+			],
+			[
+				"op",
+				"opt_fill_col_lbl"
+			],
+			[
+				"ask",
+				"askcolor"
+			],
+			[
+				"opt",
+				"opt_bg_col"
+			],
+			[
+				"E",
+				"ExampleCommand"
+			],
+			[
+				"opt_shape_shapes_imgs",
+				"opt_shape_shapes_imgs_i_decrease"
+			],
+			[
+				"opt_shapes",
+				"opt_shape_shapes_imgs_i_increase"
+			],
+			[
+				"opt_",
+				"opt_shape_shapes_imgs_i"
+			],
+			[
+				"opt_shape_",
+				"opt_shape_shapes_imgs_i"
+			],
+			[
+				"c",
+				"coords"
+			],
+			[
+				"O",
+				"Options"
+			],
+			[
+				"fu",
+				"fun\tFunction"
+			],
+			[
+				"l",
+				"localStorage"
+			],
+			[
+				"ma",
+				"makemenu"
+			],
+			[
+				"se",
+				"server"
+			],
+			[
+				"r",
+				"res"
+			],
+			[
+				"f",
+				"func"
+			],
+			[
+				"stat",
+				"STATE"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"mo",
+				"models"
+			],
+			[
+				"lo",
+				"loader"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"F",
+				"File"
+			],
+			[
+				"siz",
+				"size_to_readale"
+			],
+			[
+				"CUR",
+				"CURURL"
+			],
+			[
+				"CU",
+				"CURURL"
+			],
+			[
+				"ope",
+				"open_dir"
+			],
+			[
+				"i",
+				"icons"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"up",
+				"update_text"
+			],
+			[
+				"EXE",
+				"EXE_CLOSE"
+			],
+			[
+				"sp",
+				"splash"
+			],
+			[
+				"gl",
+				"global"
+			],
+			[
+				"colo",
+				"colorsheme"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"img",
+				"img_close"
+			],
+			[
+				"r_",
+				"r_reduce"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"tex",
+				"textedit"
+			],
+			[
+				"N",
+				"Notebook"
+			],
+			[
+				"e",
+				"e_tab_changed"
+			],
+			[
+				"ct",
+				"ctrl_shift_s"
+			],
+			[
+				"add",
+				"add_cascade"
+			],
+			[
+				"me",
+				"menu"
+			],
+			[
+				"te",
+				"textedit"
+			],
+			[
+				"T",
+				"textedit"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"w",
+				"write"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"Se",
+				"setCookie"
+			],
+			[
+				"wri",
+				"writeJSON"
+			],
+			[
+				"H",
+				"HeadersNotSent"
+			],
+			[
+				"HE",
+				"HEADERS"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"bu",
+				"burlywood"
+			],
+			[
+				"cu",
+				"cursor"
+			],
+			[
+				"txt",
+				"txtmemory_item"
+			],
+			[
+				"setC",
+				"setTextCursor"
+			],
+			[
+				"sta",
+				"startswith"
+			],
+			[
+				"tag",
+				"tag-name"
+			],
+			[
+				"ind",
+				"index"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.js",
+			"settings":
+			{
+				"buffer_size": 9664,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/c++.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/c++.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/start.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/flask.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/flask.sublime-build",
+					""
+				],
+				[
+					"Packages/User/node js.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/py-app.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/py-app.sublime-build",
+					""
+				],
+				[
+					"Packages/User/python idle.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/py-app.sublime-build",
+					""
+				],
+				[
+					"Packages/User/python idle.sublime-build",
+					""
+				],
+				[
+					"Packages/User/start-py.sublime-build",
+					""
+				],
+				[
+					"Packages/User/start.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/py-app.sublime-build",
+					""
+				],
+				[
+					"Packages/User/python idle.sublime-build",
+					""
+				],
+				[
+					"Packages/User/start.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/start.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/python idle.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/amapython/BackgroundPython.sublime-build",
+					""
+				],
+				[
+					"Packages/amapython/BackgroundPython.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/py-app.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python311.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python311.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/start.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/amapython/BackgroundPython.sublime-build",
+					""
+				],
+				[
+					"Packages/amapython/BackgroundPython.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/py-app.sublime-build",
+					""
+				],
+				[
+					"Packages/User/python idle.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python311.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python311.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/start-py.sublime-build",
+					""
+				],
+				[
+					"Packages/User/start.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Python311.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/amapython/BackgroundPython.sublime-build",
+					""
+				],
+				[
+					"Packages/amapython/BackgroundPython.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/py-app.sublime-build",
+					""
+				],
+				[
+					"Packages/User/python idle.sublime-build",
+					""
+				],
+				[
+					"Packages/User/start-py.sublime-build",
+					""
+				],
+				[
+					"Packages/User/start.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/amapython/BackgroundPython.sublime-build",
+					""
+				],
+				[
+					"Packages/amapython/BackgroundPython.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/py-app.sublime-build",
+					""
+				],
+				[
+					"Packages/User/start.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/ShellScript/ShellScript.sublime-build",
+					""
+				],
+				[
+					"Packages/User/bash.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/bash.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/ama.sublime-build",
+					""
+				],
+				[
+					"Packages/User/ama.sublime-build",
+					"Lint"
+				],
+				[
+					"Packages/User/ama.sublime-build",
+					"Integration Tests"
+				]
+			],
+			[
+				"Packages/User/ama.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/bash.sublime-build",
+					""
+				],
+				[
+					"Packages/User/start.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/bash.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/node js.sublime-build",
+					""
+				],
+				[
+					"Packages/User/start.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/node js.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"view: ",
+				"View: Toggle Menu"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"do",
+				"do the test"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 292.0,
+		"history":
+		[
+			"pydoc.browse()",
+			"dir(pydoc)",
+			"import pydoc",
+			"sys.path",
+			"import pydoc",
+			"sys.path.insert(0, \"C:/Users/ama/AppData/Local/Programs/Python/Python311/Lib\")",
+			"import pydoc",
+			"sys.path.insert(0, \"C:/Users/ama/AppData/Local/Programs/Python/Python311/Lib\")",
+			"sys = subl.sys",
+			"subl.sys",
+			"subl = sublp.sublime",
+			"import sublime_plugin as sublp",
+			"pydoc.browse()",
+			"dir(pydoc)",
+			"import pydoc",
+			"sys.path.insert(0, \"C:/Users/ama/AppData/Local/Programs/Python/Python311/Lib\")",
+			"sys.path",
+			"import sys",
+			"dir(rpr)",
+			"rpr = pydoc.HTMLRepr()",
+			"pydoc.HTMLRepr()",
+			"pydoc.HTMLRepr",
+			"dir(pydoc)",
+			"import pydoc",
+			"v.assign_syntax.__doc__",
+			"v.assign_syntax_file.__doc__",
+			"v.set_syntax_file.__doc__",
+			"v.set_syntax_file(\"Python/Python.sublime-syntax\")",
+			"v.set_syntax_file(\"C:/Users/ama/AppData/Roaming/Sublime Text/Packages/amapython/TkPython.sublime-syntax\")",
+			"v.set_syntax_file(\"html/html.sublime-syntax\")",
+			"dir(v)",
+			"w",
+			"w = v.window()",
+			"v",
+			"v = subl.View(12)",
+			"subl = sublp.sublime",
+			"import sublime_plugin as sublp",
+			"subl",
+			"ss.alert(\"hello\")",
+			"ss.screenshot()",
+			"ss.screenshot",
+			"ss.mouseUp(40)",
+			"ss.resolution()",
+			"ss.resolution",
+			"dir(ss)",
+			"import pyautogui as ss",
+			"import PIL.Image",
+			"dir(PIL)",
+			"ddir(PIL)",
+			"import PIL",
+			"from reportlab.pdfgen import canvas",
+			"import reportlab",
+			"sys.path.append(r\"C:\\Users\\ama\\AppData\\Local\\Programs\\Python\\Python311\\Lib\")",
+			"sys.path.append(r\"C:\\Users\\ama\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\")",
+			"import sys",
+			"import reportlab",
+			"import sublime_plugin as sublp",
+			"import sublime_pluggin as sublp",
+			"import sublime as subl",
+			"sublp.__doc__",
+			"sublp.on_hover.__doc__",
+			"sublp.on_hover(1, (3,5), (1,2,3,4))",
+			"sublp.on_hover()",
+			"sublp.on_hover",
+			"dir(el)",
+			"el",
+			"el = sublp.EventListener()",
+			"el = sublp.EventListener(\"input\")",
+			"dir(el)",
+			"el",
+			"el = sublp.EventListener()",
+			"sublp.EventListener",
+			"sublp.EvevtListener",
+			"sublp = sublime_plugin",
+			"a.hide()",
+			"a.show(6)",
+			"a.show(2)",
+			"a.show()",
+			"a.show",
+			"a.open",
+			"a.edit",
+			"a.save",
+			"a.file_name()",
+			"a.syntax()",
+			"a",
+			"a = sublime.View(0)",
+			"a.syntax()",
+			"a.syntax(\"python\")",
+			"a.syntax()",
+			"a.word(4)",
+			"a.word(2)",
+			"a.word()",
+			"a.word",
+			"a.file_name()",
+			"a.file_name",
+			"dir(a)",
+			"a",
+			"a = sublime.View(1)",
+			"sublime.View()",
+			"sublime.View",
+			"sublime.view",
+			"sublime.PopupFlags(2)",
+			"sublime.PopupFlags()",
+			"sublime.PopupFlags",
+			"open(\"C:/py-apps/sublime-attrs.yml\", \"w\").write(yaml.safe_dump([dir(sublime), dir(sublime_plugin)]))",
+			"import yaml",
+			"print(sys.path)",
+			"import sys",
+			"print(sys.path)",
+			"import yaml",
+			"print(dir(sublime_plugin))",
+			"import sublime_plugin",
+			"print(dir(sublime))",
+			"import sublime",
+			"dir(oib)",
+			"import Default.open_in_browser as oib",
+			"sys.path",
+			"import sys",
+			"import shapes",
+			"__main__",
+			"import __main__",
+			"import http",
+			"import tkinter",
+			"sublime_plugin.on_pre_save()",
+			"sublime_plugin.on_pre_save.__doc__",
+			"sublime_plugin.on_pre_save",
+			"dir(sublime_plugin)",
+			"import sublime_plugin"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/ken-morel.github.io"
+	],
+	"file_history":
+	[
+		"/C/py-apps/amaor/html/index.js",
+		"/C/py-apps/amaor/html/index.html",
+		"/C/py-apps/amaor/html/color-schemes/default.css",
+		"/C/py-apps/amaor/__main__.py",
+		"/C/py-apps/amaor/color-schemes/default.css",
+		"/C/py-apps/amaor/color-shemes/default.css",
+		"/C/py-apps/amaor/html/index.css",
+		"/C/Users/ama/Downloads/MetalArbiter_ver.3/MetalArbiter_ver.3/keymapping.txt",
+		"/C/py-apps/jumpist-html/__main__.py",
+		"/C/py-apps/jumpist-html/RebexTinyWebServer-Binaries-Latest/RebexTinyWebServer.exe.config",
+		"/C/py-apps/jumpist-html/html/index.html",
+		"/C/py-apps/jumpist-html/html/main.js",
+		"/C/py-apps/jumpist-html/RebexTinyWebServer-Binaries-Latest/wwwroot/main.js",
+		"/C/py-apps/jumpist-html/RebexTinyWebServer-Binaries-Latest/README.txt",
+		"/C/Users/ama/AppData/Local/Programs/Python/Python311/Lib/http/server.py",
+		"/C/py-apps/jumpist-html/__main__.spec",
+		"/C/Users/ama/AppData/Local/Programs/Python/Python311/Lib/site-packages/auto_py_to_exe/__main__.py",
+		"/C/Users/ama/AppData/Local/Programs/Python/Python311/Lib/site-packages/auto_py_to_exe/ui.py",
+		"/C/Users/ama/Documents/PyOpenGL-skeleton-aniamtion/animation.py",
+		"/C/Users/ama/Documents/PyOpenGL-skeleton-aniamtion/README.md",
+		"/C/py-apps/drawer/ponggame.kv",
+		"/C/py-apps/drawer/pong.py",
+		"/C/py-apps/drawer/buildozer.spec",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Packages/User/Python311.sublime-build",
+		"/C/py-apps/drawer/mypaint.kv",
+		"/C/py-apps/drawer/__main__.py",
+		"/C/shell",
+		"/D/azaharTEA/azaharTEA.py",
+		"/D/Python-3.11.5/Doc/c-api/capsule.rst",
+		"/D/Python-3.11.5/Doc/install/index.rst",
+		"/D/Python-3.11.5/setup.py",
+		"/C/py-apps/taskama.pyw",
+		"/C/py-apps/drawer/pong.kv",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Packages/amapython/BackgroundPython.sublime-build",
+		"/C/py-apps/checkers/__main__.py",
+		"/C/py-apps/consolegui.py",
+		"/C/Program Files/Google/Drive File Stream/launch.bat",
+		"/C/py-apps/img-cli.py",
+		"/C/js-apps/jumpist/main.js",
+		"/C/py-apps/a.list",
+		"/C/py-apps/a.file",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Packages/User/tkgrid.sublime-snippet",
+		"/C/py-apps/amaco/__main__.pyw",
+		"/C/py-apps/taskama/__main__.pyw",
+		"/C/py-apps/amaco/__main__.py",
+		"/C/py-apps/micropython/motion-sense-light-wifi.py",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Packages/amapython/amapython.py",
+		"/C/py-apps/micropython/motion-sense-light-wifi.ino/motion-sense-light-wifi/motion-sense-light-wifi.ino",
+		"/C/py-apps/foyer/main.js",
+		"/D/micropython/color_spectrum/color_spectrum.ino",
+		"/C/Users/ama/AppData/Local/Programs/Python/Python311/Lib/site-packages/bottle.py",
+		"/C/Users/ama/AppData/Local/Programs/Python/Python311/Lib/site-packages/send2trash/win/__init__.py",
+		"/C/Users/ama/AppData/Local/Programs/Python/Python311/Lib/site-packages/send2trash/__init__.py",
+		"/C/Users/ama/AppData/Local/Programs/Python/Python311/Lib/pydoc.py",
+		"/C/Users/ama/screensaver-desktop/logo01_240X240 .txt",
+		"/C/Users/ama/AppData/Roaming/Sublime Merge/Packages/User/Preferences.sublime-settings",
+		"/C/py-apps/amacolorama/color.py",
+		"/C/Users/ama/Desktop/del.py",
+		"/C/Users/ama/AppData/Local/Programs/Python/Python311/Tools/demo/rpythond.py",
+		"/C/Users/ama/Contacts/Esso Jeanne Rosy.contact",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Packages/amapython/Main.sublime-menu",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Packages/amapython/Side Bar.sublime-menu",
+		"/C/Users/ama/AppData/Local/Programs/Python/Python311/Lib/site-packages/ampy/files.py",
+		"/C/py-apps/micropython/board.py",
+		"/C/Users/ama/AppData/Local/Programs/Python/Python311/Lib/site-packages/ampy/cli.py",
+		"/C/Users/ama/AppData/Local/Programs/Python/Python311/Lib/site-packages/ampy/pyboard.py",
+		"/C/Users/ama/AppData/Local/Programs/Python/Python311/Lib/site-packages/ampy/__init__.py",
+		"/C/Users/ama/Desktop/back_end_test.py",
+		"/C/py-apps/_dev-utils/make-tk-app.py",
+		"/C/py-apps/micropython/to_buy.csv",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Packages/rainbow_csv/auto_syntax.py",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Packages/rainbow_csv/main.py",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Packages/amapython/Default.sublime-commands",
+		"/C/py-apps/sublime-attrs.yml",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Packages/amapython/Default (Windows).sublime-keymap",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Packages/amapython/Default.sublime-menu",
+		"/C/py-apps/drawee-drawam/shapes.py",
+		"/C/py-apps/drawee-drawam/projects.py",
+		"/C/py-apps/drawee-drawam/data.py",
+		"/C/py-apps/drawee-drawam/__main__.py",
+		"/C/Users/ama/Documents/file.postscript",
+		"/C/py-apps/drawee-drawam/data.yml",
+		"/C/Users/ama/Documents/ama4.drawee",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Installed Packages/YamlToJson/YamlToJson.py",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Installed Packages/YamlToJson/Default.sublime-commands",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Installed Packages/YamlToJson/Default (Windows).sublime-keymap",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Packages/Arduino-like IDE/Main.sublime-menu",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Packages/User/amapython.py",
+		"/C/Users/ama/Desktop/memorypzl.spec",
+		"/D/docs/How to Convert CSV to Excel using Pandas in Python.mhtml",
+		"/C/py-apps/micropython/motion-sense-light-wifi.ino/motion-sense-light-wifi.ino",
+		"/C/Users/ama/Documents/Arduino/ama.ino/ama.ino.ino",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Installed Packages/CSV/csvplugin.py",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Installed Packages/CSV/Default.sublime-commands",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Installed Packages/CSV/Context.sublime-menu",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Installed Packages/CSV/Main.sublime-menu",
+		"/C/py-apps/d.yml",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Packages/User/MicroPython.sublime-settings",
+		"/C/Program Files/Sublime Text/Lib/python38/sublime.py",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Packages/User/Stino/app_dir.stino-settings",
+		"/C/Users/ama/Desktop/test.py",
+		"/C/Users/ama/AppData/Local/Programs/Python/Python311/Lib/site-packages/pygame/examples/chimp.py",
+		"/C/py-apps/foyer/crate-color.html",
+		"/C/py-apps/foyer/index.html",
+		"/C/Users/ama/AppData/Roaming/Sublime Text/Packages/User/Stino/menu/libraries/Main.sublime-menu",
+		"/C/py-apps/folder/__main__.py",
+		"/C/py-apps/drawee-drawam/__pycache__/data.py",
+		"/C/Users/ama/ama.log",
+		"/D/docs/micropython/Makerfabs-MakePython-ESP32-Color-LCD-master/pyfonts/astrol.py",
+		"/C/Users/ama/AppData/Local/Programs/Python/Python311/Lib/http/__init__.py",
+		"/C/Users/ama/a.response",
+		"/C/py-apps/micropython/del.py",
+		"/C/py-apps/micropython/socketserver.py",
+		"/C/Users/ama/AppData/Local/Programs/Python/Python311/Lib/socketserver.py",
+		"/c/users/ama/appdata/local/temp/to_buy.csv.csv",
+		"/C/py-apps/whisup/whisup/views.py",
+		"/C/Users/ama/Desktop/memorypzl.py",
+		"/C/py-apps/Scripts/activate.bat",
+		"/C/py-apps/micropython/control_light_intensity_with_potentiometer.py",
+		"/C/py-apps/micropython/to_buy.yml",
+		"/C/py-apps/micropython/motion-sense-light.py",
+		"/C/py-apps/dload/__main__.py",
+		"/C/py-apps/micropython/ama.py",
+		"/C/py-apps/micropython/speaker.py",
+		"/C/py-apps/micropython/boot.py",
+		"/C/py-apps/whisup/whisup/templates/signup.html",
+		"/C/py-apps/whisup/whisup/models.py",
+		"/C/py-apps/whisup/whisup/admin.py"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.js",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 9664,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								521,
+								521
+							]
+						],
+						"settings":
+						{
+							"rainbow_checked": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 116.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.diff_views":
+	{
+		"height": 108.0
+	},
+	"output.exec":
+	{
+		"height": 231.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.stino_build_panel":
+	{
+		"height": 0.0
+	},
+	"output.stino_panel":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "",
+	"project": "ken-morel.github.io.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\js-apps\\js-apps.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 191.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
