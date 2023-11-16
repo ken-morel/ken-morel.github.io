@@ -1,0 +1,29 @@
+.. role:: py(code)
+    :language: python
+
+==================================================
+annotate()
+==================================================
+    It permits you annotate *specific* types to a parameter
+
+    it raises an *AnnotationError* when type mismatch
+
+.. code-block:: python
+
+   import annotate as ann
+   @ann.annotate()
+   def add(a:int, b:int) -> int:
+       return a+b
+
+
+
+--------------------------------------------------
+annotate.annotate(_raise:bool = True)
+--------------------------------------------------
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+arguments
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#.:py:`_raise:bool`
+   a :py:`bool` determining if :py:`AnnotationError` is to be raised on annotation mismatch

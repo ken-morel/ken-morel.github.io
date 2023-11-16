@@ -1,0 +1,31 @@
+==================================================
+annotate-types
+==================================================
+
+annotate,for convenience accepts many sorts of annotations including
+
+* python classes
+  such as *int*, *list*, *tuple*
+  here there if typematch when the argument is an instance of the class
+
+* an *int*, *str* or *None*
+  here typematch is known by checking for equity
+
+* a *tuple* of *int*, *str* or *None*
+  here typematch is known by checking for equity on any of the tuple items
+
+* the class *annotation.Any*
+  matches any type
+
+.. note::
+   the `typing.Union <https://docs.python.org/3.11/library/typing.html#typing.Union>`_ cant be used, so if argument can be of several types, use the bitwise `|`
+
+   >>> from annotate import annotate as ann
+   >>> @ann()
+   ... def square(val:int|float) -> int|float:
+   ...     return val**2
+   ...
+   >>> square(2)
+   4
+   >>> square(2.0)
+   4.0

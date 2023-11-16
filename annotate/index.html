@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Welcome to annotate’s documentation! &#8212; annotate 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/classic.css?v=514cf933" />
+    
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="annotate-types" href="annotate-types.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="annotate-types.html" title="annotate-types"
+             accesskey="N">next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">annotate 1.0.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Welcome to annotate’s documentation!</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="welcome-to-annotate-s-documentation">
+<h1>Welcome to annotate’s documentation!<a class="headerlink" href="#welcome-to-annotate-s-documentation" title="Link to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="annotate-types.html">annotate-types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="methods/annotate.html">annotate()</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="methods/annotate.html#annotate-annotate-raise-bool-true">annotate.annotate(_raise:bool = True)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="methods/overload.html">overload()</a></li>
+</ul>
+</div>
+<section id="intro">
+<h2>Intro<a class="headerlink" href="#intro" title="Link to this heading">¶</a></h2>
+<blockquote>
+<div><p>annotate is a python package which helps you create function overloads and annotation typechecking as just adding a decorator</p>
+</div></blockquote>
+<section id="id1">
+<h3><a class="reference external" href="annotate.html">annotate.annotate()</a><a class="headerlink" href="#id1" title="Link to this heading">¶</a></h3>
+<p>permits you to typecheck arguments for annotations on function call</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">annotate</span> <span class="kn">import</span> <span class="n">annotate</span>
+<span class="nd">@annotate</span><span class="p">()</span>
+<span class="k">def</span> <span class="nf">sum</span><span class="p">(</span><span class="n">a</span><span class="p">:</span><span class="nb">int</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span><span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+<span class="sd">&quot;&quot;&quot;def sum(a:int, b:int) -&gt; int:</span>
+<span class="sd">sums two integers</span>
+<span class="sd">:param a: integer 1</span>
+<span class="sd">:param b: integer 2</span>
+
+<span class="sd">:returns: the sum of a and b</span>
+<span class="sd">&quot;&quot;&quot;</span>
+   <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+</pre></div>
+</div>
+</section>
+<section id="id2">
+<h3><a class="reference external" href="overload.html">annotate.overload()</a><a class="headerlink" href="#id2" title="Link to this heading">¶</a></h3>
+<p>permits you to create function overloads</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">annotate</span> <span class="kn">import</span> <span class="n">overload</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nd">@overload</span><span class="p">()</span>
+<span class="gp">... </span><span class="k">def</span> <span class="nf">devide</span><span class="p">(</span><span class="n">a</span><span class="p">:</span><span class="nb">int</span><span class="o">|</span><span class="nb">float</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span><span class="mi">0</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span> <span class="c1"># division by zero</span>
+<span class="gp">... </span>   <span class="k">raise</span> <span class="ne">ZeroDivisionError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;deviding </span><span class="si">{</span><span class="n">a</span><span class="si">}</span><span class="s2"> by </span><span class="si">{</span><span class="n">b</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="gp">...</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nd">@overload</span><span class="p">()</span>
+<span class="gp">... </span><span class="k">def</span> <span class="nf">devide</span><span class="p">(</span><span class="n">a</span><span class="p">:</span><span class="nb">int</span><span class="o">|</span><span class="nb">float</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span><span class="nb">int</span><span class="o">|</span><span class="nb">float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="o">|</span><span class="nb">float</span><span class="p">:</span>  <span class="c1"># a and b are *int* or *float*</span>
+<span class="gp">... </span>   <span class="k">return</span> <span class="n">a</span> <span class="o">/</span> <span class="n">b</span>
+<span class="gp">...</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nd">@overload</span><span class="p">()</span>
+<span class="gp">... </span><span class="k">def</span> <span class="nf">devide</span><span class="p">(</span><span class="n">a</span><span class="p">:</span><span class="nb">str</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span><span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span> <span class="c1"># a and b are both *str*</span>
+<span class="gp">... </span>   <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">a</span><span class="p">),</span> <span class="nb">float</span><span class="p">(</span><span class="n">b</span><span class="p">)</span> <span class="c1"># convert to *float*</span>
+<span class="gp">... </span>   <span class="n">quotient</span> <span class="o">=</span> <span class="n">a</span> <span class="o">/</span> <span class="n">b</span> <span class="c1"># find quotient</span>
+<span class="gp">... </span>   <span class="k">return</span> <span class="nb">str</span><span class="p">(</span><span class="n">quotient</span><span class="p">)</span> <span class="c1"># convert to *str* and return</span>
+<span class="gp">...</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">devide</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="go">0.5</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">devide</span><span class="p">(</span><span class="s2">&quot;1&quot;</span><span class="p">,</span> <span class="s2">&quot;2&quot;</span><span class="p">)</span>
+<span class="go">&#39;0.5&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">devide</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="gt">Traceback (most recent call last):</span>
+  File <span class="nb">&quot;&lt;stdin&gt;&quot;</span>, line <span class="m">1</span>, in <span class="n">&lt;module&gt;</span>
+  File <span class="nb">&quot;C:\pymodules\annotate\__init__.py&quot;</span>, line <span class="m">89</span>, in <span class="n">call</span>
+<span class="w">    </span><span class="k">return</span> <span class="n">oload</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kw</span><span class="p">)</span>
+<span class="w">           </span><span class="pm">^^^^^^^^^^^^^^^^^^</span>
+  File <span class="nb">&quot;&lt;stdin&gt;&quot;</span>, line <span class="m">3</span>, in <span class="n">devide</span>
+<span class="gr">ZeroDivisionError</span>: <span class="n">deviding 1 by 0</span>
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Link to this heading">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="#">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Welcome to annotate’s documentation!</a><ul>
+<li><a class="reference internal" href="#intro">Intro</a><ul>
+<li><a class="reference internal" href="#id1">annotate.annotate()</a></li>
+<li><a class="reference internal" href="#id2">annotate.overload()</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="annotate-types.html"
+                          title="next chapter">annotate-types</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="annotate-types.html" title="annotate-types"
+             >next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">annotate 1.0.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Welcome to annotate’s documentation!</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2023, ken-morel.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    </div>
+  </body>
+</html>

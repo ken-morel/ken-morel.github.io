@@ -1,0 +1,46 @@
+.. role:: py(code)
+    :language: python
+
+==================================================
+overload()
+==================================================
+    It help create function overloads
+
+    >>> from annotate import overload
+    >>> @overload()
+    ... def devide(a:int|float, b:0) -> None: # division by zero
+    ...    raise ZeroDivisionError(f"deviding {a} by {b}")
+    ...
+    >>> @overload()
+    ... def devide(a:int|float, b:int|float) -> int|float:  # a and b are *int* or *float*
+    ...    return a / b
+    ...
+    >>> @overload()
+    ... def devide(a:str, b:str) -> str: # a and b are both *str*
+    ...    a, b = float(a), float(b) # convert to *float*
+    ...    quotient = a / b # find quotient
+    ...    return str(quotient) # convert to *str* and return
+    ...
+    >>> devide(1, 2)
+    0.5
+    >>> devide("1", "2")
+    '0.5'
+    >>> devide(1, 0)
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+      File "C:\pymodules\annotate\__init__.py", line 89, in call
+        return oload(*args, **kw)
+               ^^^^^^^^^^^^^^^^^^
+      File "<stdin>", line 3, in devide
+    ZeroDivisionError: deviding 1 by 0
+
+
+.. note::
+    The final function docstring will be that of the function
+
+.. note::
+    The overloads are checked in the function they are given
+
+.. seealso::
+    `annotate-types <annotate-types.html>`_ for a list of available annotations
+

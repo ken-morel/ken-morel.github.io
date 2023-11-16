@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>annotate() &#8212; annotate 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/classic.css?v=514cf933" />
+    
+    <script src="../_static/documentation_options.js?v=8d563738"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="overload()" href="overload.html" />
+    <link rel="prev" title="annotate-types" href="../annotate-types.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="overload.html" title="overload()"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../annotate-types.html" title="annotate-types"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">annotate 1.0.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">annotate()</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="annotate">
+<h1>annotate()<a class="headerlink" href="#annotate" title="Link to this heading">¶</a></h1>
+<blockquote>
+<div><p>It permits you annotate <em>specific</em> types to a parameter</p>
+<p>it raises an <em>AnnotationError</em> when type mismatch</p>
+</div></blockquote>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">annotate</span> <span class="k">as</span> <span class="nn">ann</span>
+<span class="nd">@ann</span><span class="o">.</span><span class="n">annotate</span><span class="p">()</span>
+<span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">a</span><span class="p">:</span><span class="nb">int</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span><span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">a</span><span class="o">+</span><span class="n">b</span>
+</pre></div>
+</div>
+<section id="annotate-annotate-raise-bool-true">
+<h2>annotate.annotate(_raise:bool = True)<a class="headerlink" href="#annotate-annotate-raise-bool-true" title="Link to this heading">¶</a></h2>
+<section id="arguments">
+<h3>arguments<a class="headerlink" href="#arguments" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>#.:py:<cite>_raise:bool</cite></dt><dd><p>a <code class="code highlight py python docutils literal highlight-python"><span class="nb">bool</span></code> determining if <code class="code highlight py python docutils literal highlight-python"><span class="n">AnnotationError</span></code> is to be raised on annotation mismatch</p>
+</dd>
+</dl>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">annotate()</a><ul>
+<li><a class="reference internal" href="#annotate-annotate-raise-bool-true">annotate.annotate(_raise:bool = True)</a><ul>
+<li><a class="reference internal" href="#arguments">arguments</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="../annotate-types.html"
+                          title="previous chapter">annotate-types</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="overload.html"
+                          title="next chapter">overload()</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/methods/annotate.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="overload.html" title="overload()"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../annotate-types.html" title="annotate-types"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">annotate 1.0.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">annotate()</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2023, ken-morel.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    </div>
+  </body>
+</html>
